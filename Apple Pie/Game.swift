@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//
+// Code van de game, hoe het spel werkt. 
 struct Game {
     var word: String
     var incorrectMovesRemaining: Int

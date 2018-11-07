@@ -49,7 +49,7 @@ class ViewController: UIViewController {
             updateUI()
         }
     }
-// viewDidLoad start een nieuwe ronde.
+// viewDidLoad start een nieuwe ronde 
     override func viewDidLoad() {
         super.viewDidLoad()
         newRound()
