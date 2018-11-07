@@ -75,7 +75,7 @@ class ViewController: UIViewController {
         }
     }
     
-// Update het scorelabel en het plaatje van de boom. Update dus de interface van de app.
+// Update de interface van de app.
     func updateUI() {
         var letters = [String]()
         for letter in currentGame.formattedWord {
@@ -87,3 +87,4 @@ class ViewController: UIViewController {
         treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
     }
 }
+
