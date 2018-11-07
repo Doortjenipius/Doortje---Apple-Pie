@@ -14,6 +14,8 @@
 		50B546C52192DE8400F19976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B546C32192DE8400F19976 /* LaunchScreen.storyboard */; };
 		50B546D02192DE8400F19976 /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B546CF2192DE8400F19976 /* Apple_PieTests.swift */; };
 		50B546DB2192DE8400F19976 /* Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B546DA2192DE8400F19976 /* Apple_PieUITests.swift */; };
+		50B546E92192E68600F19976 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 50B546E82192E68600F19976 /* AppIcon.appiconset */; };
+		50B546EB2192EFAF00F19976 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B546EA2192EFAF00F19976 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		50B546D62192DE8400F19976 /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B546DA2192DE8400F19976 /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		50B546DC2192DE8400F19976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B546E82192E68600F19976 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
+		50B546EA2192EFAF00F19976 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				50B546BA2192DE7F00F19976 /* AppDelegate.swift */,
 				50B546BC2192DE7F00F19976 /* ViewController.swift */,
+				50B546EA2192EFAF00F19976 /* Game.swift */,
 				50B546BE2192DE7F00F19976 /* Main.storyboard */,
 				50B546C12192DE8400F19976 /* Assets.xcassets */,
+				50B546E82192E68600F19976 /* AppIcon.appiconset */,
 				50B546C32192DE8400F19976 /* LaunchScreen.storyboard */,
 				50B546C62192DE8400F19976 /* Info.plist */,
 			);
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B546E92192E68600F19976 /* AppIcon.appiconset in Resources */,
 				50B546C52192DE8400F19976 /* LaunchScreen.storyboard in Resources */,
 				50B546C22192DE8400F19976 /* Assets.xcassets in Resources */,
 				50B546C02192DE7F00F19976 /* Main.storyboard in Resources */,
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B546BD2192DE7F00F19976 /* ViewController.swift in Sources */,
+				50B546EB2192EFAF00F19976 /* Game.swift in Sources */,
 				50B546BB2192DE7F00F19976 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
