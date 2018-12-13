@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5012FBA621A8150400B0CF54 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012FBA521A8150400B0CF54 /* IntroPage.swift */; };
+		5012FBA621A8150400B0CF54 /* IntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012FBA521A8150400B0CF54 /* IntroPageViewController.swift */; };
 		50B546BB2192DE7F00F19976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B546BA2192DE7F00F19976 /* AppDelegate.swift */; };
 		50B546BD2192DE7F00F19976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B546BC2192DE7F00F19976 /* ViewController.swift */; };
 		50B546C02192DE7F00F19976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B546BE2192DE7F00F19976 /* Main.storyboard */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5012FBA521A8150400B0CF54 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
+		5012FBA521A8150400B0CF54 /* IntroPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageViewController.swift; sourceTree = "<group>"; };
 		50B546B72192DE7F00F19976 /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B546BA2192DE7F00F19976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B546BC2192DE7F00F19976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A15C5921C29A0400F44F83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5012FBA521A8150400B0CF54 /* IntroPageViewController.swift */,
+				50B546BC2192DE7F00F19976 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50A15C5A21C29A2100F44F83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50B546EA2192EFAF00F19976 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		50B546AE2192DE7F00F19976 = {
 			isa = PBXGroup;
 			children = (
@@ -104,14 +121,13 @@
 			isa = PBXGroup;
 			children = (
 				50B546BA2192DE7F00F19976 /* AppDelegate.swift */,
-				5012FBA521A8150400B0CF54 /* IntroPage.swift */,
-				50B546BC2192DE7F00F19976 /* ViewController.swift */,
-				50B546EA2192EFAF00F19976 /* Game.swift */,
-				50B546BE2192DE7F00F19976 /* Main.storyboard */,
 				50DEBE2621C00B9C008C0E3B /* Assets.xcassets */,
-				50B546E82192E68600F19976 /* AppIcon.appiconset */,
+				50B546BE2192DE7F00F19976 /* Main.storyboard */,
 				50B546C32192DE8400F19976 /* LaunchScreen.storyboard */,
 				50B546C62192DE8400F19976 /* Info.plist */,
+				50B546E82192E68600F19976 /* AppIcon.appiconset */,
+				50A15C5A21C29A2100F44F83 /* Model */,
+				50A15C5921C29A0400F44F83 /* Controllers */,
 			);
 			path = "Apple Pie";
 			sourceTree = "<group>";
@@ -269,7 +285,7 @@
 				50B546BD2192DE7F00F19976 /* ViewController.swift in Sources */,
 				50B546EB2192EFAF00F19976 /* Game.swift in Sources */,
 				50B546BB2192DE7F00F19976 /* AppDelegate.swift in Sources */,
-				5012FBA621A8150400B0CF54 /* IntroPage.swift in Sources */,
+				5012FBA621A8150400B0CF54 /* IntroPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

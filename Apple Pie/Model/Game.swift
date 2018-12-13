@@ -16,13 +16,13 @@ struct Game {
     var guessedLetters: [Character]
     mutating func playerGuessed(letter: Character) {
         guessedLetters.append(letter)
-        // als een letters niet in het woord zit krijgt incorrectMovesRemaing -1. 
+// als een letters niet in het woord zit krijgt incorrectMovesRemaing -1.
         if !word.contains(letter) {
             incorrectMovesRemaining -= 1
         }
     }
     
-    // guessedword wordt aangevuld met de juiste letters.
+// guessedword wordt aangevuld met de juiste letters.
     var formattedWord: String {
         var guessedWord = ""
         for letter in word {

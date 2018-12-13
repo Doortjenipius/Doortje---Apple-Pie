@@ -23,17 +23,17 @@
             </objects>
             <point key="canvasLocation" x="-731" y="47"/>
         </scene>
-        <!--Intro Page-->
+        <!--Intro Page View Controller-->
         <scene sceneID="FQJ-d4-aOh">
             <objects>
-                <viewController id="87A-Fl-yKR" customClass="IntroPage" customModule="Apple_Pie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="87A-Fl-yKR" customClass="IntroPageViewController" customModule="Apple_Pie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dkz-Hb-m3a">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gx-C9-kv0">
                                 <rect key="frame" x="70" y="17" width="1226" height="107"/>
-                                <color key="backgroundColor" red="1" green="0.83776782316658449" blue="0.31000511153174748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.83921568627450982" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Play the Apple Pie Game">
